@@ -9,8 +9,8 @@ The current code base was developed based on internal requirements but has been 
 
 Example:
 
-![example](Example/example diagram.png)
-![alt text](Example/example front.png)
+![example](Example/example_diagram.png)
+![alt text](Example/example_front.png)
 
 
 ## Scope
