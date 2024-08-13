@@ -22,16 +22,16 @@
 		<Item Name="Definition FGV" Type="Folder">
 			<Item Name="Definitions FGV.vi" Type="VI" URL="../Definitions FGV.vi"/>
 			<Item Name="Defintion FGV Actions.ctl" Type="VI" URL="../Defintion FGV Actions.ctl"/>
+			<Item Name="Add Definitions to Schema.vi" Type="VI" URL="../Add Definitions to Schema.vi"/>
+			<Item Name="Add to Definitions.vi" Type="VI" URL="../Add to Definitions.vi"/>
+			<Item Name="Init Definitions.vi" Type="VI" URL="../Init Definitions.vi"/>
+			<Item Name="Check for Definition.vi" Type="VI" URL="../Check for Definition.vi"/>
 		</Item>
+		<Item Name="Add Property to Schema.vi" Type="VI" URL="../Add Property to Schema.vi"/>
 		<Item Name="Create Property.vi" Type="VI" URL="../Create Property.vi"/>
 		<Item Name="Get JSON Type From LV Type.vi" Type="VI" URL="../Get JSON Type From LV Type.vi"/>
 		<Item Name="Property required.vi" Type="VI" URL="../Property required.vi"/>
-		<Item Name="Add Property to Schema.vi" Type="VI" URL="../Add Property to Schema.vi"/>
 		<Item Name="Parse Cluster.vi" Type="VI" URL="../Parse Cluster.vi"/>
-		<Item Name="Init Definitions.vi" Type="VI" URL="../Init Definitions.vi"/>
-		<Item Name="Add Definitions to Schema.vi" Type="VI" URL="../Add Definitions to Schema.vi"/>
-		<Item Name="Add to Definitions.vi" Type="VI" URL="../Add to Definitions.vi"/>
-		<Item Name="Check for Definition.vi" Type="VI" URL="../Check for Definition.vi"/>
 	</Item>
 	<Item Name="Unit Tests" Type="Folder">
 		<Item Name="Test - Template.vi" Type="VI" URL="../Unit Tests/Test - Template.vi"/>
@@ -46,4 +46,5 @@
 		<Item Name="Test - Add  Property (Boolean).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Boolean).vi"/>
 	</Item>
 	<Item Name="Create JSON Schema Header.vi" Type="VI" URL="../Create JSON Schema Header.vi"/>
+	<Item Name="Test - Init Definitions.vi" Type="VI" URL="../Unit Tests/Test - Init Definitions.vi"/>
 </Library>
