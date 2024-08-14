@@ -18,7 +18,6 @@
 			<Item Name="Example Create JSON Schema.vi" Type="VI" URL="../Example Create JSON Schema.vi"/>
 		</Item>
 		<Item Name="JSON Schema Generator.lvlib" Type="Library" URL="../JSON Schema Generator.lvlib"/>
-		<Item Name="Definitions Tester.vi" Type="VI" URL="../Definitions Tester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
