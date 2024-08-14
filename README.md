@@ -38,8 +38,7 @@ If a control in the cluster is a typedef it will also get parsed and added to th
 ## Development
 The library is currently developed in Labview 2023 (64bit).
 
-Required VIPM packages: 
-- JSONtext
+Required VIPM packages: see required-packages.vipc
 
 ## License
 
