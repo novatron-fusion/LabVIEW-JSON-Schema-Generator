@@ -43,8 +43,10 @@
 		<Item Name="Test - Add  Property (Array).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Array).vi"/>
 		<Item Name="Test - Add  Property (Enum).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Enum).vi"/>
 		<Item Name="Test - Add  Property (Numeric).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Numeric).vi"/>
-		<Item Name="Test - Add  Property (Boolean).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Boolean).vi"/>
+		<Item Name="Test - Add  Property (String).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (String).vi"/>
+		<Item Name="Test - Add  Property (Booleanl).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Booleanl).vi"/>
 		<Item Name="Test - Init Definitions.vi" Type="VI" URL="../Unit Tests/Test - Init Definitions.vi"/>
+		<Item Name="Test - Add to Definitions.vi" Type="VI" URL="../Unit Tests/Test - Add to Definitions.vi"/>
 	</Item>
 	<Item Name="Create JSON Schema Header.vi" Type="VI" URL="../Create JSON Schema Header.vi"/>
 </Library>

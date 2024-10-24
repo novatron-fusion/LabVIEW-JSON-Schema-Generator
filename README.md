@@ -17,7 +17,7 @@ Example:
 
 State: Work in Progress
 
-The current implementation has the asumption that the root level of the JSON Schema is generated based on a cluster. Differnet properties of an control in the cluster are added to the Schema. Standards are the name and the description of a control. 
+The current implementation has the asumption that the root level of the JSON Schema is generated based on a cluster. Differnet properties of an control in the cluster are added to the Schema. Standard are the name and the description of a control. 
 
 Supported data types:
 - Clusters
@@ -27,13 +27,39 @@ Supported data types:
   - cluster support
   - `#todo` add typedef support
 - Strings
+  - support for `minLength` and `maxLength` keywords via Description field. Use to add length validation to the string. `"minLength": 1` would mean that a string needs to have a value.
 - Enums
   - typedef support
 - Booleans 
 - Numerics
-  - `#todo` add min/max support
+  - support for `minimum`and `maximum` keywords
+
+
+  - support for  `exclusiveMinium` and `exclusiveMaximum` keywords
+  - support for `multipleOf` of keyoword to specify the steps size of the value
+
+  ```
+  x ≥ minimum
+  x > exclusiveMinimum
+  x ≤ maximum
+  x < exclusiveMaximum
+  ```
+
+
 
 If a control in the cluster is a typedef it will also get parsed and added to the Schema via `$ref` tags to the `$def` section of the schema. This allow for the reuse within a schema. 
+
+Some data types support additional keywords to further specify their evaluation.
+These additional keywords are added via the "Description" property of the corresponding control in LabVIEW. Then the description is replaced with a JSON object. 
+
+#### Example:
+```
+{
+  "description": "This is a String Control",
+  "minLength": 5,
+  "maxLength": 20
+}
+```
 
 ## Development
 The library is currently developed in Labview 2023 (64bit).
