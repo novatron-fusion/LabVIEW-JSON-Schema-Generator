@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-08-27 11:30:22" Modified_Date="2024-08-27 11:52:04" Creator="JonathanGraesser" Comments="" ID="fcad42aaa7a23ecd8debd193b96c81f0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-08-27 11:30:22" Modified_Date="2024-10-24 07:35:25" Creator="JonathanGraesser" Comments="" ID="17f3d04299b97301e7fdafbe4c01992d">
   <Library_General_Settings>
     <Package_File_Name>Novatron_Fusion_Group_AB_lib_JSON_Schema_Generator</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\Build</Library_Output_Folder>
+    <Library_Output_Folder>..\Build\LabVIEW-JSON-Schema-Generator</Library_Output_Folder>
     <Company_Name>Novatron Fusion Group  AB</Company_Name>
     <Library_Summary/>
     <Library_License>MIT2.0</Library_License>
@@ -17,14 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jdp_science_jsontext &gt;= 1.8.2.122</External_Dependencies>
-      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
-      <External_Dependencies>jki_lib_caraya &gt;= 1.4.3.147</External_Dependencies>
-      <External_Dependencies>oglib_error &gt;= 6.0.0.26</External_Dependencies>
-      <Direct_Dependencies>jdp_science_jsontext-1.8.2.122</Direct_Dependencies>
-      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
-      <Direct_Dependencies>oglib_error-6.0.0.26</Direct_Dependencies>
+      <Additional_External_Dependencies>jdp_science_jsontext &gt;=1.8.2.122</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -130,7 +123,7 @@
         <Path/>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>LICENSE.md</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -374,7 +367,7 @@
         <Path>Add Property (Enum).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58B3B3F897DE822B76A7CC63CF847323</GUID>
+      <GUID>DA833508B175F04A5753DD34CF8EEEAF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -523,7 +516,7 @@
         <Path>Example Create JSON Schema.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>87895D32953A465F8843D76A17ED67DE</GUID>
+      <GUID>ED49CAE4A1D788BA8DD4F78EA5EB915D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

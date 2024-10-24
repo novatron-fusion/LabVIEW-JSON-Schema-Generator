@@ -32,21 +32,5 @@
 		<Item Name="Property required.vi" Type="VI" URL="../Property required.vi"/>
 		<Item Name="Parse Cluster.vi" Type="VI" URL="../Parse Cluster.vi"/>
 	</Item>
-	<Item Name="Unit Tests" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Test - Template.vi" Type="VI" URL="../Unit Tests/Test - Template.vi"/>
-		<Item Name="Test - Create Property.vi" Type="VI" URL="../Unit Tests/Test - Create Property.vi"/>
-		<Item Name="Test - Get JSON Type from LV Type.vi" Type="VI" URL="../Unit Tests/Test - Get JSON Type from LV Type.vi"/>
-		<Item Name="Test - Property required.vi" Type="VI" URL="../Unit Tests/Test - Property required.vi"/>
-		<Item Name="Test - Add Property to Schema.vi" Type="VI" URL="../Unit Tests/Test - Add Property to Schema.vi"/>
-		<Item Name="Test - Parse Cluster.vi" Type="VI" URL="../Unit Tests/Test - Parse Cluster.vi"/>
-		<Item Name="Test - Add  Property (Array).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Array).vi"/>
-		<Item Name="Test - Add  Property (Enum).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Enum).vi"/>
-		<Item Name="Test - Add  Property (Numeric).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Numeric).vi"/>
-		<Item Name="Test - Add  Property (String).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (String).vi"/>
-		<Item Name="Test - Add  Property (Booleanl).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Booleanl).vi"/>
-		<Item Name="Test - Init Definitions.vi" Type="VI" URL="../Unit Tests/Test - Init Definitions.vi"/>
-		<Item Name="Test - Add to Definitions.vi" Type="VI" URL="../Unit Tests/Test - Add to Definitions.vi"/>
-	</Item>
 	<Item Name="Create JSON Schema Header.vi" Type="VI" URL="../Create JSON Schema Header.vi"/>
 </Library>

@@ -14,6 +14,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Test - Template.vi" Type="VI" URL="../Unit Tests/Test - Template.vi"/>
+			<Item Name="Test - Create Property.vi" Type="VI" URL="../Unit Tests/Test - Create Property.vi"/>
+			<Item Name="Test - Get JSON Type from LV Type.vi" Type="VI" URL="../Unit Tests/Test - Get JSON Type from LV Type.vi"/>
+			<Item Name="Test - Property required.vi" Type="VI" URL="../Unit Tests/Test - Property required.vi"/>
+			<Item Name="Test - Add Property to Schema.vi" Type="VI" URL="../Unit Tests/Test - Add Property to Schema.vi"/>
+			<Item Name="Test - Parse Cluster.vi" Type="VI" URL="../Unit Tests/Test - Parse Cluster.vi"/>
+			<Item Name="Test - Add  Property (Array).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Array).vi"/>
+			<Item Name="Test - Add  Property (Enum).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Enum).vi"/>
+			<Item Name="Test - Add  Property (Numeric).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Numeric).vi"/>
+			<Item Name="Test - Add  Property (String).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (String).vi"/>
+			<Item Name="Test - Add  Property (Boolean).vi" Type="VI" URL="../Unit Tests/Test - Add  Property (Boolean).vi"/>
+			<Item Name="Test - Init Definitions.vi" Type="VI" URL="../Unit Tests/Test - Init Definitions.vi"/>
+			<Item Name="Test - Add to Definitions.vi" Type="VI" URL="../Unit Tests/Test - Add to Definitions.vi"/>
+		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Test Enum 2--enum.ctl" Type="VI" URL="../Unit Tests/Support/Test Enum 2--enum.ctl"/>
 			<Item Name="Example Cluster 1.ctl" Type="VI" URL="../Example/Example Cluster 1.ctl"/>
@@ -23,8 +38,6 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
-				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
-				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="7842910552F72B45FFAA5B67DFEBCBC5Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/7842910552F72B45FFAA5B67DFEBCBC5Array Size(s)__ogtk.vi"/>
@@ -167,10 +180,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
-				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
