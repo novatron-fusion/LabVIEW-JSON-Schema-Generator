@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-08-27 11:30:22" Modified_Date="2025-11-21 13:25:27" Creator="JonathanGraesser" Comments="" ID="c274c7b599a9e202e2e672ccc6383be4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-08-27 11:30:22" Modified_Date="2025-11-24 11:41:53" Creator="JonathanGraesser" Comments="" ID="31ba572a33f76b3f0412aeb3ee5ad850">
   <Library_General_Settings>
     <Package_File_Name>Novatron_Fusion_Group_AB_lib_JSON_Schema_Generator</Package_File_Name>
-    <Library_Version>1.2.1.5</Library_Version>
+    <Library_Version>1.2.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Build\LabVIEW-JSON-Schema-Generator</Library_Output_Folder>
@@ -367,7 +367,7 @@
         <Path>Add Property (Enum).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C11E052EE0C1A45C6108BF620C11E0FD</GUID>
+      <GUID>02AB44F772AE296023ACFF46C293D6C3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -516,7 +516,7 @@
         <Path>Example Create JSON Schema.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F8F1C5B978A706FD2A34FB51F6D6083</GUID>
+      <GUID>0FD003A2C67CEB89BFF5F5768AC5B84E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
